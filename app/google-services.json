@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "551521235860",
+    "firebase_url": "https://store-storage-b1a73.firebaseio.com",
+    "project_id": "store-storage-b1a73",
+    "storage_bucket": "store-storage-b1a73.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:551521235860:android:f5418d0270a0bf669c5581",
+        "android_client_info": {
+          "package_name": "com.example.storestorage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "551521235860-ps8o6ru1ti1uqgss2sk9b2g960nq5jjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArlRCT6jXp62Yv0Qu_RQO5Ol97HeHVEAA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "551521235860-ps8o6ru1ti1uqgss2sk9b2g960nq5jjq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
