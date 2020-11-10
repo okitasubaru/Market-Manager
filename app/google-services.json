@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "655835600364",
+    "firebase_url": "https://store-storage-e3717.firebaseio.com",
+    "project_id": "store-storage-e3717",
+    "storage_bucket": "store-storage-e3717.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:655835600364:android:df0c9ed002881468259cc9",
+        "android_client_info": {
+          "package_name": "com.example.marketmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "655835600364-h886bu7vhuc6qs6m0rqcd9pklds68ki3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA1s-W18xQagYxFBx485XAKANAUuaifXA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "655835600364-h886bu7vhuc6qs6m0rqcd9pklds68ki3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
