@@ -44,8 +44,16 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
 
 
+    implementation 'com.wonderkiln:camerakit:0.13.1'
+
     implementation platform('com.google.firebase:firebase-bom:26.0.0')
     implementation 'com.google.firebase:firebase-database'
+    implementation 'com.google.firebase:firebase-core:16.0.3'
+    implementation 'com.google.firebase:firebase-ml-vision:17.0.0'
     implementation 'com.google.firebase:firebase-analytics'
     implementation 'com.google.android.material:material:1.2.1'
+    implementation 'com.journeyapps:zxing-android-embedded:4.1.0'
+
+
 }
+apply plugin: 'com.google.gms.google-services'
