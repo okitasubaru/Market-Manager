@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
   <component name="GradleMigrationSettings" migrationVersion="1" />
+=======
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="testRunner" value="PLATFORM" />
+<<<<<<< HEAD
         <option name="disableWrapperSourceDistributionNotification" value="true" />
+=======
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="gradleJvm" value="1.8" />
@@ -16,7 +22,10 @@
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+<<<<<<< HEAD
         <option name="useQualifiedModuleNames" value="true" />
+=======
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605
       </GradleProjectSettings>
     </option>
   </component>

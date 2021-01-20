@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context=".MainActivity">
 
     <FrameLayout
@@ -26,3 +31,12 @@
 
 
 </RelativeLayout>
+=======
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+
+
+</LinearLayout>
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605

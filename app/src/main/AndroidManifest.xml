@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+<<<<<<< HEAD
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.marketmanager">
 
     <uses-permission android:name="android.permission.CAMERA" />
 
     <uses-feature android:name="android.hardware.camera" />
+=======
+    package="com.example.storestorage">
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605
 
     <application
         android:allowBackup="true"
@@ -14,16 +18,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
 
 
         <activity android:name=".Details"></activity>
         <activity android:name=".Login_Activity">
+=======
+        <activity android:name=".MainActivity">
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+<<<<<<< HEAD
         <activity android:name=".Register_Activity" />
         <activity
             android:name=".MainActivity"
@@ -33,6 +42,8 @@
                 android:name="com.google.firebase.ml.vision.DEPENDENCIES"
                 android:value="barcode" />
         </activity>
+=======
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605
     </application>
 
 </manifest>
