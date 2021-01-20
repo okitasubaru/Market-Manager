@@ -1,50 +1,53 @@
 package com.example.marketmanager.models;
 
 public class Product {
-    private String productId;
-    private String name;
-    private int price;
-    private int amount;
+    private String Productid;
+    private String Name;
+    private float Price;
+    private String Barcode;
 
-    public Product() { }
+    // Contructor - Getter - Setter
 
-    public Product(String productId, String name, int price, int amount) {
-        this.productId = productId;
-        this.name = name;
-        this.price = price;
-        this.amount = amount;
+
+    public Product(String productid, String name, float price, String barcode) {
+        Productid = productid;
+        Name = name;
+        Price = price;
+        Barcode = barcode;
     }
 
-
-    public String getProductId() {
-        return productId;
+    public Product() {
     }
 
-    public void setProductId(String productId) {
-        this.productId = productId;
+    public String getProductid() {
+        return Productid;
+    }
+
+    public void setProductid(String productid) {
+        Productid = productid;
     }
 
     public String getName() {
-        return name;
+        return Name;
     }
 
     public void setName(String name) {
-        this.name = name;
+        Name = name;
     }
 
-    public int getPrice() {
-        return price;
+    public float getPrice() {
+        return Price;
     }
 
-    public void setPrice(int price) {
-        this.price = price;
+    public void setPrice(float price) {
+        Price = price;
     }
 
-    public int getAmount() {
-        return amount;
+    public String getBarcode() {
+        return Barcode;
     }
 
-    public void setAmount(int amount) {
-        this.amount = amount;
+    public void setBarcode(String barcode) {
+        Barcode = barcode;
     }
 }

@@ -1,15 +1,15 @@
 package com.example.marketmanager;
 
+import android.content.pm.ActivityInfo;
+import android.os.Bundle;
+import android.view.MenuItem;
+import android.widget.FrameLayout;
+
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
-
-import android.content.pm.ActivityInfo;
-import android.os.Bundle;
-import android.view.MenuItem;
-import android.widget.FrameLayout;
 
 import com.example.marketmanager.fragments.HistoryFragment;
 import com.example.marketmanager.fragments.HomeFragment;
@@ -71,5 +71,6 @@ public class MainActivity extends AppCompatActivity {
         bottomNavigationView = findViewById(R.id.bottom_navigation);
         fragmentContainer = findViewById(R.id.fragmentContainer);
     }
+
 
 }

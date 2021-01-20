@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_rounded"
+    app:flow_horizontalAlign="center"
+    app:flow_verticalAlign="center"
+    tools:context=".Login_Activity">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profile_image"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_emovebg_preview"
+        app:civ_border_width="2dp"
+        android:background="@color/Orage"
+        app:civ_border_color="#FF000000"/>
+
+
+
+    <EditText
+        android:id="@+id/edt_log_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edt_log_password"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="9dp"
+        android:textColorHint="@color/AccentHeavy"
+        android:hint="Nhập tài khoản"
+        android:inputType="text"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_log_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_Login"
+        android:layout_marginLeft="20dp"
+        android:textColorHint="@color/AccentHeavy"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="28dp"
+        android:hint="Nhập mật khẩu"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/txt_chuacotaikhoan"
+        android:layout_marginHorizontal="15dp"
+        android:layout_marginBottom="64dp"
+        android:background="@drawable/button_rounded"
+        android:text="Đăng nhập"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txt_chuacotaikhoan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="61dp"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="60dp"
+        android:text="Chưa có tài khoản? - Đến đăng ký"
+
+        android:textSize="16dp"></TextView>
+
+</RelativeLayout>
