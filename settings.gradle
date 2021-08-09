@@ -1,0 +1,6 @@
+include ':app'
+<<<<<<< HEAD
+rootProject.name = "MarketManager"
+=======
+rootProject.name = "StoreStorage"
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605

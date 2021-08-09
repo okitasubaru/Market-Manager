@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+<<<<<<< HEAD
+    <color name="Orage">#FF9800</color>
+    <color name="White">#FFFFFF</color>
+    <color name="WhiteHeavy">#EFE9E9</color>
+    <color name="AccentHeavy">#86168BA1</color>
+
+=======
+>>>>>>> 80418b90d9c05a72887b859acd5be69a40b4a605
+</resources>
